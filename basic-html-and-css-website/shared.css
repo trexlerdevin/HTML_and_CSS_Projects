@@ -4,6 +4,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);   
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    background-color: rgba(100, 65, 0, .3);
 
 }
 
@@ -13,7 +14,7 @@ body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: rgb(94, 77, 77);
 }
 
 footer ,
@@ -144,13 +145,14 @@ section {
     width: 100%;
     display: block;
     height: auto;
-    padding-top: 600px;
-    padding-bottom: 500px;
-    color: rgb(167, 157, 157);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: rgb(136, 129, 129);
     
 }
 #menu-items {
     text-align: center;
+    background-color: rgba(100, 65, 0, .3);
     
 }
 .head-main {
@@ -164,7 +166,7 @@ section {
     font-family: inpact, sans-serif;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #fff;
+    border: 5px double rgb(136, 4, 4);
     padding: 10px;
 }
 
@@ -179,7 +181,7 @@ section {
     font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
-    border: 1px dotted #fff;
+    border: 1px dotted rgb(146, 4, 4);
     padding: 5px;
 }
 
@@ -195,7 +197,7 @@ section {
 }
 
 #contact {
-    background-color: #f5f3f3;
+    background-color: #857f7f56;
 }
  
 .reservation {
@@ -241,13 +243,13 @@ section {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8D8E8F;
+    color: #616468;
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227, 222, 222);
+    background: rgb(245, 111, 111);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }

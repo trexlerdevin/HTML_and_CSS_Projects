@@ -11,12 +11,12 @@
 
 .menu li {
     color: #000;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(161, 124, 124);
     display: inline-block;
     margin: 0% auto;
     position: relative;
     padding: 15px 4%;
-    border: 1px solid #9D9FA2;
+    border: 1px solid #7c7d80;
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 6px;
     cursor: pointer;
@@ -56,7 +56,7 @@
 }
 
 .photo-overlay {
-    color: #fff;
+    color: rgb(129, 124, 124);
     position: absolute;
     top: 0;
     right: 0;
