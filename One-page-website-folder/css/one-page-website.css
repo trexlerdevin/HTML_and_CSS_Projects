@@ -16,15 +16,18 @@ body {
 }
 
 #latte-art-classes form {
-    font-size: 30px;
-    outline: none;
+    max-inline-size: 400px 600px;
+    font-size: 22px;
+    outline: rgb(22, 22, 22);
     font-weight: 600;
-    color: #465361;
+    color: #34373a;
+    text-shadow: black;
     padding: 100px 50px;
-    width: 50%;
+    width: relative;
+    height: min-content;
     border: 3px double solid #faf8f8;
-    margin: 25%;
-    border-radius: 7px;
+    margin: 20%;
+    border-radius: 2px;
     background: rgb(27, 156, 189);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Roboto', fantasy, sans-serif;
@@ -33,23 +36,23 @@ body {
 }
 
 .latte-art-classes input[type="text"] {
-    font-size: 15px;
+    font-size: 19px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8F;
+    color: #f3f5f7;
     padding: 2% 1% 2% 7%;
-    width: 70%;
+    width: 50%;
     border-top: 3px solid#cecece;
-    border-right: 5px solid#080808;
-    margin: 70px 12em;
+    border-right: 5px solid#811d1dc4;
+    margin: 20px 10em;
     border-radius: 7px;
-    background: #13161B;
-    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.15);
+    background: #811d1dc4;
+    box-shadow: inset 0px 3px 0px rgba(228, 225, 225, 0.822);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif sans-serif;
 }
 
 .latte-art-classes input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(14, 13, 13, 0.8);
+    box-shadow: 0 0 18px rgba(240, 238, 238, 0.8);
 }
 
 .terms {
@@ -59,7 +62,7 @@ body {
     font-size: 17px;
     text-shadow: 2px rgb(15, 12, 12);
     line-height: 5px;
-    color: rgb(204, 200, 200);
+    color: rgb(75, 73, 73);
     cursor: pointer;
     font-family: 'Roboto', Fantasy, sans-serif;
     font-weight: 600;
