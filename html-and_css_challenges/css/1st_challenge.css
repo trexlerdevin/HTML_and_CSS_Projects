@@ -68,7 +68,7 @@ table, th, td {
     bottom: 30px;
     left: 200px;
     font-size: 22px;
-    color:rgb(10, 10, 10);
+    color:rgb(241, 232, 232);
 
 }
 
@@ -119,7 +119,7 @@ p:hover {
     background-color: darkolivegreen;
 }
 
-.video-container {
+.video_container {
     position: relative;
 }
 
@@ -129,7 +129,7 @@ p:hover {
     height: 50%;
 }
 
-.video-overlay {
+.videooverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -140,6 +140,10 @@ p:hover {
     opacity: 0;
     transition: .5s ease;
     
+}
+
+.video_container:hover .videooverlay {
+    opacity: 1;
 }
 
 .videotext {
