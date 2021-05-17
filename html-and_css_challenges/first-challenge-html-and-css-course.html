@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html lang=en>
 
+    <link rel="stylesheet" href="./css/1st_challenge.css">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale-1">
 
         <title>First Challenge of HTML and CSS course</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+        </style>
     </head>
     <body>
 
-        <img src="./images/knight.png" alt="knight">
+        <div class="navbar">
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="contact">Contact</a>
+        </div>
+
+            <div class="row">
+                <div class="column" style="background-color: brown;">
+                    <h3>column1</h3>
+                    <p>this is text</p>
+                </div>
+                <div class="column" style="background-color: chocolate;">
+                    <h3>column2</h3>
+                    <p>this is more text</p>
+
+                </div>
+            </div>
+
+        <table style="width: 60%;">
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Age</th>
+             </tr>
+             <tr>
+                <th>James</th>
+                <th>Bond</th>
+                <th>34</th>
+             </tr>
+        </table>
+
+        <div class="container">
+            
+            <img src="./images/knight.png" alt="knight" style="width: 400px; height: 500;">
+            <div class="bottomleft" style="color: aliceblue;">text</div>
+        </div>
+
+        <p>This is my awesome, amazing paragraph for my html and css challenges.</p>
+
+        <div class="picture">
+            <img src="./images/knight.png" style="width: 400px; height: 600px;" alt="knightinarmor" class="knight">
+            <div class="overlay">
+                <div class="text">You have my sword.</div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            
+            <div class="video">
+            <video playsinline autoplay muted loop id="video" width="600px" height="400px"> <source src="./images/Warriors Fighting.mp4" type="video/mp4"> </video>
+            </div>
+            <div class="video-overlay">
+                <div class="videotext">This is my video overlay text.</div>
+            </div>
+        </div>
 
 
     </body>
+    <footer>
+        <h3>This is my footer</h3>
+    
+    </footer>
 
 </html>

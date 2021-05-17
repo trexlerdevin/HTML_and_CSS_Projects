@@ -1,0 +1,155 @@
+img {
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: grayscale(75%);
+    height: auto;
+}
+
+.picture {
+    position: relative;
+    width: 50%;
+}
+
+.knight {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: firebrick;
+}
+
+.picture:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: darkseagreen;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+table, th, td {
+    border: 3px double orangered;
+    background-color: steelblue;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    position: relative;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+    font-size: 22px;
+    color:rgb(10, 10, 10);
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: steelblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(243, 241, 243);
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background: cornflowerblue;
+    color: rgb(87, 5, 5);
+}
+
+.main {
+    padding: 17px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover {
+    background-color: darkolivegreen;
+}
+
+.video-container {
+    position: relative;
+}
+
+.video {
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
+}
+
+.videotext {
+    color: black;
+    font-size: 30px;
+    position: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
