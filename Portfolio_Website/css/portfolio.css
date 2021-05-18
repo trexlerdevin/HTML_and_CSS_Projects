@@ -104,8 +104,8 @@ footer {
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
     z-index: 1; /* This ensures other elements don't display over the navbar */
-    -webkit-animation: moveNav 5s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
-    animation: moveNav 5s; /* This applies the moveNav animation for all other browsers */
+    -webkit-animation: moveNav 2s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
+    animation: moveNav 2s; /* This applies the moveNav animation for all other browsers */
 }
 
 /* moveNav animation effect for moving the nav bar in from the left of the screen */
