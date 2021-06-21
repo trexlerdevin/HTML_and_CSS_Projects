@@ -2,6 +2,7 @@
 <html lang=en>
     <head> 
         <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale= 1.0" name="viewport">
         <title> Trexler Cafe</title>
         <link rel="stylesheet" href="./css/shared.css">
         <link rel="stylesheet" href="./css/animations.css">
@@ -33,16 +34,18 @@
         <!-- Menu Items -->
         <section id="menu-items">
             <div class="container">
+            
                 <h1> MENU ITEMS</h1>
                 <div class="flex-container">
-                    
+                    <span class="close">&times;</span>
                     <!-- PHOTO CONTAINER 1-->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/thumb/Avocado-Toast-platter.png" alt="Avocado-Toast-platter">
+                            <img src="./images/thumb/Avocado-Toast-platter.png" onclick="enlargeImage();" alt="Avocado-Toast-platter">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We are accepting take out orders!</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -155,8 +158,8 @@
                 </div>
             </div>
         </section>
-        <!-- END MENU ITEMS-->
 
+    
         <!-- RESERVATIONS -->
         <section id="contact">
             <div class="container">
