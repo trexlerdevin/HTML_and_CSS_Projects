@@ -1,14 +1,14 @@
 //enlarge image / open modal
-var modal = document.getElementsByName("ohoto-container");
+var modal = document.getElementsByName("photo-container");
 
 // button to open the modal
 var btn = document.getElementById("photo");
 
 // the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[8];
 
 // open modal when clicked
-btn.onclick = function() {
+photo.onclick = function() {
     modal.style.display = "block"
 }
 
