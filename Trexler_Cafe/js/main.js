@@ -1,14 +1,14 @@
 //enlarge image / open modal
-var modal = document.getElementsByName("photo-container");
+var modal = document.getElementsByName("photo");
 
 // button to open the modal
-var btn = document.getElementById("photo");
+var btn = document.getElementById("btn");
 
 // the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[8];
+var span = document.getElementsByClassName("close");
 
 // open modal when clicked
-photo.onclick = function() {
+btn.onclick = function openModal() {
     modal.style.display = "block"
 }
 
