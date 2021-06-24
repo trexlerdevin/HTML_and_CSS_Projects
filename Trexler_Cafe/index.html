@@ -6,7 +6,8 @@
         <title> Trexler Cafe</title>
         <link rel="stylesheet" href="./css/shared.css">
         <link rel="stylesheet" href="./css/animations.css">
-        <script src="./js/main.js"defer></script>
+        <script src="./js/main.js" defer></script>
+        
     </head>
     <body>
     
@@ -34,16 +35,19 @@
 
         <!-- Menu Items -->
         <section id="menu-items">
-            <div class="container">
+            <div class="container" onclick="openModal();currentSlide([])">
+                
             
                 <h1> MENU ITEMS</h1>
-                <div class="flex-container">
-                    <span class="close">&times;</span>
-                                    
+                <div id="flex-container">
+                    <div class="mySlides">
+                    
+                    
+                          
                     <!-- PHOTO CONTAINER 1-->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/thumb/Avocado-Toast-platter.png" onclick="enlargeImage();" alt="Avocado-Toast-platter">
+                            <img src="./images/thumb/Avocado-Toast-platter.png"  alt="Avocado-Toast-platter">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We are accepting take out orders!</p>
@@ -56,7 +60,7 @@
                     <!-- PHOTO CONTAINER 2-->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/thumb/Candied-Walnut_Apple_cinnamon-Oatmeal.png" alt="Candied-Walnut_Apple_cinnamon-Oatmeal">
+                            <img src="./images/thumb/Candied-Walnut_Apple_cinnamon-Oatmeal.png"  alt="Candied-Walnut_Apple_cinnamon-Oatmeal">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We are accepting take out orders!</p>
@@ -69,7 +73,7 @@
                     <!-- PHOTO CONTAINER 3-->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/thumb/Cinnamon-apple-toast.png" alt="Cinnamon-apple-toast">
+                            <img src="./images/thumb/Cinnamon-apple-toast.png"  alt="Cinnamon-apple-toast">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We are accepting take out orders!</p>
@@ -158,9 +162,69 @@
 
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
         </section>
 
-    
+       <!--lightbox-->
+        <div id="myModal"  class="modal">
+            
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <span class="close cursor" onclick="closeModal([])">&times;</span>
+                    <div class="numbertext">1 / 8</div>
+                    <img src="./images/thumb/Avocado-Toast-platter.png" onclick="openModal();currentSlide(1)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="./images/thumb/Candied-Walnut_Apple_cinnamon-Oatmeal.png"onclick="openModal();currentSlide(2)"  style="width: 50%">
+                </div> 
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="./images/thumb/Cinnamon-apple-toast.png" onclick="openModal();currentSlide(3)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="./images/thumb/Croissant-Breakfast-Sandwich.png" onclick="openModal();currentSlide(4)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="./images/thumb/Grain-Salad-Bowl.png" onclick="openModal();currentSlide(5)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="./images/thumb/Quinoa-bowl.png" onclick="openModal();currentSlide(6)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="./images/thumb/Tomato-basil-bowl.png" onclick="openModal();currentSlide(7)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="./images/thumb/Veggie-Bagel-Sandwich.png" onclick="openModal();currentSlide(8)" style="width: 50%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="./images/thumb/background-image.png" onclick="openModal();currentSlide(8)" style="width: 50%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+
+                
         <!-- RESERVATIONS -->
         <section id="contact">
             <div class="container">
