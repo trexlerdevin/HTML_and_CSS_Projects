@@ -278,7 +278,7 @@ section {
 
 .terms {
     margin: 30px 1px 0 0 ;
-    margin-top: 13%;
+    margin-top: 15%;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -292,7 +292,7 @@ section {
 }
 
 .terms:hover {
-    color: rgb(68, 0, 255);
+    color: rgb(7, 35, 252);
     text-decoration: underline;
 }
 
