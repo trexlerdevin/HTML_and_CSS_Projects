@@ -21,21 +21,23 @@
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                   <a class="nav-link text-light" href="#About"> <li>About</li></a>
-        
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link text-light" href="#showtimes"> <li>Showtimes</li></a>
                 </li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Book a showtime
+                  </a>
                 <li class="nav-item active">
                   <a class="nav-link text-light" href="#deals"> <li>Deals</li></a>
-                   
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-light my-2 my-sm-0 text-dark" type="submit">Search</button>
               </form>
-            </div>
+      </div>
           </nav>
     
 
@@ -52,7 +54,7 @@
             <div class="row">
               <div class="col-sm">
                   
-                <img class="img-fluid" src="./images/pdx.png" alt="">
+                <img class="img-fluid" src="./images/Woodlake.png" alt="">
 
             
              </div>
@@ -169,25 +171,91 @@
                 </div>
             </div>
           </div>
-
-
-
-
-
           <!-- end showtimes -->
+<br>
+<br>
+          <!-- collapse button -->
+          <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Book a showtime
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+            Book your showtime here
+            </div>
+          </div>
+
+          <!-- jumbotron heading-->
+          <div class="jumbotron jumbotron-fluid bg-success mt-5 text-center">
+            <div class="container">
+              <h1 class="display-4 hidden-sm-down" style="color: #fff;font-weight: 900; text-transform: uppercase;">
+              Movie Deals</h1>
+              <p class="lead"> check out our monthly deals...</p>
+              <!--movie deals-->
+              <!-- movie deals-->
+              <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#register">See our monthly movie deals!</button>
+              <!--/movie deals-->
+              </div>
+          </div>
+          <!--/jumbotron heading-->
+
+          <!--signup form-->
           <div id="deals" class="text-center">
                 <form>
                     <h1 class="text-dark my-5">Sign-up for our Movie Rewards Club!</h1>
                     <div class="form-group">
-                        
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <span class="input-group-btn">
+                          <button type="button" class="btn btn-dark popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Sunbmit your email to receive great movie rewards!">
+                            Sign up
+                        </span>
                     </div>
-                   
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-                    
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>     
           </div>
+          <!-- / signup form-->
 
+          <!-- form modal -->
+          <div class="modal" id="register" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Register to receive movie deals!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                <form>
+                  <fieldset class="form-group row">
+                      <label for="firstname">First Name:</label>
+                      <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                  </fieldset>
+                  <fieldset class="form-group row">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Last Name..." Name...">
+                </fieldset>
+                <fieldset class="form-group row">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email...">
+              </fieldset>
+              <fieldset class="form-group row">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" placeholder="Password...">
+            </fieldset>
+          </form>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /form modal -->
+          <!-- footer -->
             <div class="container my-5">
                  <ul class="nav nav-inline">
                     <li class="nav-item">
@@ -201,14 +269,16 @@
                     </li>
                 </ul>
             </div>
-        </div>
-
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>$('.popover-dismiss').popover({
+      trigger: 'focus'
+      })
+
+    </script>
   </body>
 </html>
