@@ -66,15 +66,17 @@ h4 {
 }
 
 p {
-    font-weight: 300;
+    font-weight: bold;
+    font-size: 20px;
     line-height: 30px;
     padding-bottom: 15px;
     padding-top:30px;
     color: black;
 
+
 }
 
-.text-center {
+.text {
     text-align: center;
 }
 
@@ -93,7 +95,7 @@ section {
     display: block;
 }
 
-#photo-container {
+#Breakfast_Menu {
     background-color: slategray;
 
 }
@@ -144,8 +146,8 @@ section {
     z-index: 100;
 }
 
-#home {
-    background: url(../images/thumb/background-image1.png) no-repeat 50% 50%;
+#HOME {
+    background: url(../images/background-image1.png) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -204,7 +206,12 @@ section {
 }
 
 #contact {
-    background-color: #f5f3f3;
+    background: url(../images/background-image.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
  
 .latte-art-classes {
@@ -253,10 +260,10 @@ section {
     color: #5e6061;
     padding: 12px 12px;
     width: 70%;
-    border: 3px double solid #0c0c0c;
+    border: 1px double solid #0c0c0c;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227, 222, 222);
+    background: rgb(120, 134, 148);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
@@ -269,7 +276,7 @@ section {
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid#090B0D;
-    border-right: 4px solid#03a52c;
+    border-right: 2px solid#03a52c;
     margin: 10px 1em;
     border-radius: 7px;
     background: #03a52c;
@@ -287,7 +294,7 @@ section {
 
 .terms {
     margin: 30px 1px 0 0 ;
-    margin-top: 13%;
+    margin-top: 15%;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -301,12 +308,12 @@ section {
 }
 
 .terms:hover {
-    color: orange;
+    color: rgb(0, 133, 241);
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-    color: rgb(225, 225, 225);
+    color: rgb(8, 8, 8);
     cursor: pointer;
     border: none;
     font-weight: 900;
