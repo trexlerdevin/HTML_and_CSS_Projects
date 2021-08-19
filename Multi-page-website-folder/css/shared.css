@@ -4,7 +4,7 @@ html {
     -webkit-tap-highlight-color: rgba(10, 6, 250, 0.918);   
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background-color: rgb(129, 129, 129);
+    background-color: slategray;
 
 }
 
@@ -17,7 +17,6 @@ body {
     background-color: slategray;
 }
 
-
 #nav {
     display: inline-block;
     padding-top: 15px;
@@ -25,26 +24,33 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
-
+    text-align: center;
+    font-weight: bold;
 }
+
 h1 {
-    line-height: 50px;
+    padding-top: 300px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: x-large;
     text-transform: uppercase;
     text-align: center;
-    color: #0e0d0d;
-    text-shadow: 2px 2px 3px rgba(5, 241, 56, 0.733) 
+    text-shadow: 5px 5px 5px rgb(15, 15, 15);
+    color: rgb(252, 248, 248);
 }
 
 h1::after {
     display: block;
     content: "";
-    height: 2px;
-    width: 150px;
-    background: #070707;
+    background-color: #070707;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+}
+#name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: cornsilk;
+    text-shadow: -3px -3px 5px black;
 }
 
 h2 {
@@ -72,8 +78,7 @@ p {
     padding-bottom: 15px;
     padding-top:30px;
     color: black;
-
-
+    text-align: center;
 }
 
 .text {
@@ -85,8 +90,8 @@ p {
 }
 
 section {
-    padding-top: 50px;
-    margin-top: 50px;
+    padding-top: 0px;
+    margin-top: 00px;
 }
 
 .navbar {
@@ -95,32 +100,10 @@ section {
     display: block;
 }
 
-#Breakfast_Menu {
+#menu {
     background-color: slategray;
-
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.clearfix:after,
-.container:after,
 .navbar:after {
     clear: both;
     display: both;
@@ -137,17 +120,8 @@ section {
     text-align: center;
 }
 
-.menu-container {
-    max-height: 340px;
-    margin: 0% auto;
-    content: " ";
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
 #HOME {
-    background: url(../images/background-image1.png) no-repeat 50% 50%;
+    background: url(../images/website-background.png) no-repeat 20% 20%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -156,20 +130,24 @@ section {
     width: 100%;
     display: block;
     height: auto;
-    padding-top: 600px;
-    padding-bottom: 500px;
-    color: rgb(167, 157, 157);
+    padding-top: 100px;
+    padding-bottom: 800px;
     
 }
 
-#menu-items {
-    text-align: center;
-    
+#main_p {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: rgb(253, 252, 252);
+    background: rgba(0, 0, 0, 0.3);
 }
+
 #main {
-    text-shadow: 2px 4px 5px rgba(12, 189, 12, 0.774);
+    text-shadow: 5px 4px 5px rgba(5, 5, 5, 0.774);
     font-variant: small-caps;
-    color: rgba(14, 13, 13, 0.651);
+    color: rgba(117, 115, 115, 0.651);
     letter-spacing: 2pt;
     font-size: 2.5em;
     text-align: left;
@@ -179,32 +157,10 @@ section {
     padding: 10px;
 }
 
-.head-sub-main {
-    font-size: 23px;
-    font-weight: 500;
-    padding: 50px 20px 1-px 20px;
-    text-transform: uppercase;
+#videos {
+    background-color: black;
+    
 }
-
-.head-last {
-    font-size: 18px;
-    font-weight: 900;
-    padding: 5px 20px 20px 20px;
-    border: 1px dotted #fff;
-    padding: 5px;
-}
-
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 0px auto;
-    background-color: rgba(148, 100, 12, 0.3);
-    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.342);
-}
-
 #contact {
     background: url(../images/background-image.png) no-repeat 50% 50%;
     background-attachment: fixed;
@@ -212,9 +168,11 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   
 }
  
 .latte-art-classes {
+    color: black;
     width: 60%;
     padding: 10px;
     border-radius: 8px;
@@ -248,44 +206,48 @@ section {
 }
 
 .latte-art-classes p {
+    font-size: large;
     color: #13161B;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .latte-art-classes form {
     font-size: 15px;
-    outline: none;
     font-weight: 600;
-    color: #5e6061;
-    padding: 12px 12px;
+    color: #0a0a0a;
+    padding: 30px 19px 19px 19px;
     width: 70%;
     border: 1px double solid #0c0c0c;
     margin: 2% auto;
-    border-radius: 7px;
+    border-radius: 10px;
     background: rgb(120, 134, 148);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
+}
+
+::placeholder {
+    color: black;
 }
 
 .latte-art-classes input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #111111;
-    padding: 2% 1% 2% 7%;
-    width: 80%;
+    color: #111111b9;
+    padding: 20px 20px 10px 20px;
     border-top: 1px solid#090B0D;
     border-right: 2px solid#03a52c;
     margin: 10px 1em;
     border-radius: 7px;
     background: #03a52c;
-    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.15);
+    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.966);
     font-family: 'Raleway', sans-serif;
 }
 
 .latte-art-classes input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100, 65, 0, .8);
+    box-shadow: 0 0 18px rgba(4, 230, 34, 0.986);
 }
 
 .form-spacer {
@@ -293,7 +255,7 @@ section {
 }
 
 .terms {
-    margin: 30px 1px 0 0 ;
+    margin: 20px 1px 0 0 ;
     margin-top: 15%;
     padding-left: 52px;
     font-size: 14px;
@@ -308,7 +270,7 @@ section {
 }
 
 .terms:hover {
-    color: rgb(0, 133, 241);
+    color: rgb(0, 241, 72);
     text-decoration: underline;
 }
 
@@ -326,20 +288,21 @@ section {
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background-color: #797a7b;
+    background-color: #141414;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .submit input[type="submit"]:hover {
     color: #000;
-    background-color: #030303;
-    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+    background-color: #575656;
+    box-shadow: inset 10px 10px 15px 10px rgba(0, 0, 0, 0.5);
 }
 
-#footer {
+footer {
     background-color: rgba(100, 65, 0, .3);
     color: #000;
     text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
-    text-align: right;
+    text-align: center;
+    font-weight: bold;
 }
