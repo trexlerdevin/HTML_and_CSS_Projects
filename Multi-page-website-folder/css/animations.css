@@ -5,6 +5,11 @@
     overflow: hidden;
 }
 
+#photo-container{
+    background: url(../images/photo.png);
+    background-attachment: cover;
+}
+
 .photo-container {
     text-align: center;
     margin: 15px auto;

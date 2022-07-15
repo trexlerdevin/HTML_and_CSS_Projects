@@ -4,8 +4,6 @@ html {
     -webkit-tap-highlight-color: rgba(10, 6, 250, 0.918);   
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background-color: slategray;
-
 }
 
 body {
@@ -14,7 +12,6 @@ body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: slategray;
 }
 
 #nav {
@@ -89,19 +86,10 @@ p {
     padding-bottom: 40px;
 }
 
-section {
-    padding-top: 0px;
-    margin-top: 00px;
-}
-
 .navbar {
     height: 105px;
     max-height: 340px;
     display: block;
-}
-
-#menu {
-    background-color: slategray;
 }
 
 .navbar:after {
@@ -131,7 +119,7 @@ section {
     display: block;
     height: auto;
     padding-top: 100px;
-    padding-bottom: 800px;
+    padding-bottom: 400px;
     
 }
 
@@ -168,13 +156,12 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
 }
  
 .latte-art-classes {
     color: black;
     width: 60%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 8px;
     margin: 0px auto;
     text-align: center;
@@ -222,7 +209,7 @@ section {
     border: 1px double solid #0c0c0c;
     margin: 2% auto;
     border-radius: 10px;
-    background: rgb(120, 134, 148);
+    background: rgb(120, 134, 148, .08);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
@@ -237,17 +224,17 @@ section {
     font-weight: 600;
     color: #111111b9;
     padding: 20px 20px 10px 20px;
-    border-top: 1px solid#090B0D;
-    border-right: 2px solid#03a52c;
+    border-top: 1px solid #090B0D;
+    border-right: 2px solid #03a52c;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #03a52c;
+    background: rgba(15, 247, 27, 0.863);
     box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.966);
     font-family: 'Raleway', sans-serif;
 }
 
 .latte-art-classes input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(4, 230, 34, 0.986);
+    box-shadow: 0 0 18px rgba(12, 12, 12, 0.8);
 }
 
 .form-spacer {
@@ -274,6 +261,9 @@ section {
     text-decoration: underline;
 }
 
+.submit {
+    background-color: rgba(44, 233, 27, 0.897);
+}
 .submit input[type="submit"] {
     color: rgb(8, 8, 8);
     cursor: pointer;

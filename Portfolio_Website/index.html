@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Devin Trexler Full Stack SW Developer</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        <script src= "js/main.js"></script>
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/Codes - 23355.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Devin Trexler's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>There are 10 types of people in the world.
+                        <br>Those who Understand binary,
+                        <br>and those who don't
+                    </q>
+                    <br> -Anonymous
+                    <br>
+                    <br> My name is Devin Trexler. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--Portfolio section-->
+        <div class="row" id="Portfolio">
+            <div class="Portfolio">
+                <h1 id="portfolio_header">Portfolio</h1>
+                <div class="portfolio_text">
+                    <p>
+                    Here are a few of the projects that I have completed that I 
+                    am proud of. All of these projects are on my github account if 
+                    you would like to see more details on any of them.
+                    </p>
+
+                    <div id="Slideshow">
+                        <div id="Slideshow_Background"> 
+                            <div id="Slideshow_Container">
+                                <!-- Slide 1 of 6 -->
+                                <div class="mySlides fade">
+                                    <img class="Slideshow_Images" src="images/open_weather_map_logo.png" alt="Open Weather Map Logo">
+                                    <div class="text">My Weather app that utilizes the geolocation of your computer to give you a 3 day forcast!</div>
+                                </div>
+                                <!-- Slide 2 of 6 -->
+                                <div class="mySlides fade">
+                                    <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
+                                    <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                                </div>
+                                <!-- Slide 3 of 6 -->
+                                <div class="mySlides fade">
+                                    <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
+                                    <div class="text">the popular programming language Python,</div>
+                                </div>
+                                <!-- Slide 4 of 6 -->
+                                <div class="mySlides fade">
+                                    <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                                    <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                                </div>
+                                <!-- Slide 5 of 6 -->
+                                <div class="mySlides fade">
+                                    <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo"> 
+                                    <div class="text">back end development, databases and SQL.</div>
+                                </div>
+                                
+                                <!-- Previous and next buttons -->
+                                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br> <!-- Adds a space between the slideshow images and the dots -->
+            
+                            <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                            <div style="text-align: center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span> 
+                                <span class="dot" onclick="currentSlide(4)"></span> 
+                                <span class="dot" onclick="currentSlide(5)"></span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--End of Portfolio section-->
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                
+                <img src="./images/coding_img.png" alt="Coding image" width="650px" height="1250px">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! As a father of three, I enjoy time with my family, traveling, and of course CODING! 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a> Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C#, Python, and more. 
+                    <br>
+                    <br>I am a full-stack developer who is eager to expand and develop my skills and knowlegde and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    Access to my Github profile with all of my projects is attached below:
+                    <br>
+                    <p class="center"><a href="https://github.com/trexlerdevin" target="_blank">TrexlerDevin Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/trexlerdevin" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/contact_me.png" width="620px" height="1250px" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xpzkpybp" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
